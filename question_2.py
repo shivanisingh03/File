@@ -10,7 +10,11 @@ print(count)
 
 
 
-
+my_file=open("line.txt","r")
+c=0
+for i in my_file:
+ c+=1
+print(c)
 
 
 
